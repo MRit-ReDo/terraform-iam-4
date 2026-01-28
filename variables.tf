@@ -8,3 +8,12 @@ variable "iam_user_name" {
 
 }
 
+variable "s3_read_policy" {
+
+  description = "S3 read-only IAM policy"
+
+  type        = any
+
+}
+
+
